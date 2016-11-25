@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/battd:system/bin/battd \
     vendor/leeco/zl1/proprietary/bin/bcc:system/bin/bcc \
     vendor/leeco/zl1/proprietary/bin/bdt:system/bin/bdt \
-    vendor/leeco/zl1/proprietary/bin/blkid:system/bin/blkid \
     vendor/leeco/zl1/proprietary/bin/blockdev:system/bin/blockdev \
     vendor/leeco/zl1/proprietary/bin/bmgr:system/bin/bmgr \
     vendor/leeco/zl1/proprietary/bin/brctl:system/bin/brctl \
@@ -70,11 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/dalvikvm64:system/bin/dalvikvm64 \
     vendor/leeco/zl1/proprietary/bin/date:system/bin/date \
     vendor/leeco/zl1/proprietary/bin/dd:system/bin/dd \
-    vendor/leeco/zl1/proprietary/bin/debuggerd:system/bin/debuggerd \
-    vendor/leeco/zl1/proprietary/bin/debuggerd64:system/bin/debuggerd64 \
-    vendor/leeco/zl1/proprietary/bin/dex2oat:system/bin/dex2oat \
     vendor/leeco/zl1/proprietary/bin/df:system/bin/df \
-    vendor/leeco/zl1/proprietary/bin/dhcpcd:system/bin/dhcpcd \
     vendor/leeco/zl1/proprietary/bin/diag_callback_sample:system/bin/diag_callback_sample \
     vendor/leeco/zl1/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
     vendor/leeco/zl1/proprietary/bin/diag_klog:system/bin/diag_klog \
@@ -1365,6 +1360,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
     vendor/leeco/zl1/proprietary/etc/preloaded-classes:system/etc/preloaded-classes \
     vendor/leeco/zl1/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/zl1/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
     vendor/leeco/zl1/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
     vendor/leeco/zl1/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
@@ -2228,8 +2227,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/media/audio/ui/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
     vendor/leeco/zl1/proprietary/media/audio/ui/VideoStop.ogg:system/media/audio/ui/VideoStop.ogg \
     vendor/leeco/zl1/proprietary/media/audio/ui/WirelessChargingStarted.ogg:system/media/audio/ui/WirelessChargingStarted.ogg \
+    vendor/leeco/zl1/proprietary/media/bootanimation.zip:system/media/bootanimation.zip \
     vendor/leeco/zl1/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/leeco/zl1/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
+    vendor/leeco/zl1/proprietary/vendor/bin/fidoca:system/vendor/bin/fidoca \
     vendor/leeco/zl1/proprietary/vendor/bin/hdcp1prov:system/vendor/bin/hdcp1prov \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
@@ -3771,13 +3772,4 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/test_suite_pproc.so:system/vendor/lib/test_suite_pproc.so \
     vendor/leeco/zl1/proprietary/vendor/lib/test_suite_vfe.so:system/vendor/lib/test_suite_vfe.so \
     vendor/leeco/zl1/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/leeco/zl1/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/leeco/zl1/proprietary/xbin/antradio_app:system/xbin/antradio_app \
-    vendor/leeco/zl1/proprietary/xbin/btconfig:system/xbin/btconfig \
-    vendor/leeco/zl1/proprietary/xbin/chkufsd:system/xbin/chkufsd \
-    vendor/leeco/zl1/proprietary/xbin/dexdump:system/xbin/dexdump \
-    vendor/leeco/zl1/proprietary/xbin/iwpriv:system/xbin/iwpriv \
-    vendor/leeco/zl1/proprietary/xbin/mkntfs:system/xbin/mkntfs \
-    vendor/leeco/zl1/proprietary/xbin/pnx:system/xbin/pnx \
-    vendor/leeco/zl1/proprietary/xbin/qlogd:system/xbin/qlogd \
-    vendor/leeco/zl1/proprietary/xbin/tcpdump:system/xbin/tcpdump
+    vendor/leeco/zl1/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd

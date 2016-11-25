@@ -1360,10 +1360,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
     vendor/leeco/zl1/proprietary/etc/preloaded-classes:system/etc/preloaded-classes \
     vendor/leeco/zl1/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
-    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
-    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
-    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
-    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/zl1/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
     vendor/leeco/zl1/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
     vendor/leeco/zl1/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
