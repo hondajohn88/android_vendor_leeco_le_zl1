@@ -1,0 +1,39 @@
+ansi_cprng.ko crypto_ansi_cprng ansi_cprng crypto_stdrng stdrng
+
+br_netfilter.ko symbol:br_netfilter_enable
+
+core_ctl.ko
+
+evbug.ko input:b*v*p*e*_e*k*r*a*m*l*s*f*w*
+
+ghci-hcd.ko
+
+gxhci-hcd.ko
+
+jnl.ko symbol:jnl_op
+
+lcd.ko symbol:lcd_device_unregister symbol:devm_lcd_device_register symbol:lcd_device_register symbol:devm_lcd_device_unregister
+
+mmc_block_test.ko
+test_iosched
+
+mmc_test.ko
+
+qca_cld/qca_cld_wlan.ko symbol:__adf_nbuf_set_rx_cksum symbol:__adf_nbuf_free symbol:__adf_nbuf_dmamap_info symbol:adf_os_spin_lock_bh_outline symbol:__adf_nbuf_shared symbol:__adf_nbuf_get_tid symbol:__adf_nbuf_dmamap_set_cb symbol:__adf_nbuf_unmap_single symbol:__adf_nbuf_get_tx_cksum symbol:__adf_nbuf_map symbol:__adf_nbuf_unmap symbol:__adf_nbuf_set_tid symbol:__adf_os_defer_delayed_func symbol:__adf_nbuf_dmamap_destroy symbol:__adf_nbuf_is_eapol_pkt symbol:__adf_nbuf_alloc symbol:__adf_os_defer_func symbol:__adf_nbuf_dmamap_create symbol:__adf_nbuf_frag_info symbol:adf_os_spin_unlock_bh_outline symbol:__adf_nbuf_is_dhcp_pkt symbol:vow_config symbol:__adf_nbuf_get_vlan_info symbol:__adf_nbuf_map_single symbol:__adf_nbuf_get_exemption_type symbol:__adf_nbuf_ref
+
+rdbg.ko
+
+spidev.ko spi:spidev of:N*T*Cqcom,spi_msm_codec_slave* of:N*T*Crohm,dh2228fv*
+
+test-iosched.ko symbol:test_iosched_add_wr_rd_test_req symbol:test_iosched_set_test_result symbol:test_iosched_free_test_req_data_buffer symbol:test_iosched_unregister symbol:test_iosched_create_test_req symbol:compare_buffer_to_pattern symbol:test_iosched_add_urgent_req symbol:test_iosched_register symbol:check_test_completion symbol:test_iosched_set_ignore_round symbol:test_iosched_add_unique_test_req symbol:test_iosched_mark_test_completion symbol:test_iosched_start_test
+
+ufs_test.ko symbol:ufs_test_init
+test_iosched
+
+ufsd.ko
+jnl
+
+wil6210.ko pci:v00001AE9d00000302sv*sd*bc*sc*i* pci:v00001AE9d00000310sv*sd*bc*sc*i*
+
+wlan.ko symbol:__adf_nbuf_set_rx_cksum symbol:__adf_nbuf_free symbol:__adf_nbuf_dmamap_info symbol:adf_os_spin_lock_bh_outline symbol:__adf_nbuf_shared symbol:__adf_nbuf_get_tid symbol:__adf_nbuf_dmamap_set_cb symbol:__adf_nbuf_unmap_single symbol:__adf_nbuf_get_tx_cksum symbol:__adf_nbuf_map symbol:__adf_nbuf_unmap symbol:__adf_nbuf_set_tid symbol:__adf_os_defer_delayed_func symbol:__adf_nbuf_dmamap_destroy symbol:__adf_nbuf_is_eapol_pkt symbol:__adf_nbuf_alloc symbol:__adf_os_defer_func symbol:__adf_nbuf_dmamap_create symbol:__adf_nbuf_frag_info symbol:adf_os_spin_unlock_bh_outline symbol:__adf_nbuf_is_dhcp_pkt symbol:vow_config symbol:__adf_nbuf_get_vlan_info symbol:__adf_nbuf_map_single symbol:__adf_nbuf_get_exemption_type symbol:__adf_nbuf_ref
+
