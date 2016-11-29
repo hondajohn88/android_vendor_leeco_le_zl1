@@ -1735,6 +1735,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib64/libsync.so:system/lib64/libsync.so \
     vendor/leeco/zl1/proprietary/lib64/libsysutils.so:system/lib64/libsysutils.so \
     vendor/leeco/zl1/proprietary/lib64/libteddycom-jni.so:system/lib64/libteddycom-jni.so \
+    vendor/leeco/zl1/proprietary/lib64/libtime_genoff.so:system/lib64/libtime_genoff.so \
+    vendor/leeco/zl1/proprietary/lib64/libTimeService.so:system/lib64/libTimeService.so \
     vendor/leeco/zl1/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/leeco/zl1/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/leeco/zl1/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
@@ -2092,6 +2094,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libswscale.so:system/lib/libswscale.so \
     vendor/leeco/zl1/proprietary/lib/libsync.so:system/lib/libsync.so \
     vendor/leeco/zl1/proprietary/lib/libsysutils.so:system/lib/libsysutils.so \
+    vendor/leeco/zl1/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/leeco/zl1/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
     vendor/leeco/zl1/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/leeco/zl1/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/leeco/zl1/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
