@@ -1285,8 +1285,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/mmi/strings.xml:system/etc/mmi/strings.xml \
     vendor/leeco/zl1/proprietary/etc/mmi/strings-zh-rCN.xml:system/etc/mmi/strings-zh-rCN.xml \
     vendor/leeco/zl1/proprietary/etc/NOTICE.html.gz:system/etc/NOTICE.html.gz \
-    vendor/leeco/zl1/proprietary/etc/nqnfcee_access.xml:system/etc/nqnfcee_access.xml \
-    vendor/leeco/zl1/proprietary/etc/nqnfcse_access.xml:system/etc/nqnfcse_access.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
