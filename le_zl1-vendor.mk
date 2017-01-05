@@ -647,7 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/etc/mmi/runall.png:system/etc/mmi/runall.png \
     vendor/leeco/le_zl1/proprietary/etc/mmi/strings.xml:system/etc/mmi/strings.xml \
     vendor/leeco/le_zl1/proprietary/etc/mmi/strings-zh-rCN.xml:system/etc/mmi/strings-zh-rCN.xml \
-    vendor/leeco/le_zl1/proprietary/etc/NOTICE.html.gz:system/etc/NOTICE.html.gz \
     vendor/leeco/le_zl1/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
     vendor/leeco/le_zl1/proprietary/etc/preferred_activity.xml:system/etc/preferred_activity.xml \
     vendor/leeco/le_zl1/proprietary/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
